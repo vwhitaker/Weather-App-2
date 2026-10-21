@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Node / frontend
+frontend/node_modules/
+npm-debug.log*
+frontend/.vite/
+
+# frontend/dist is intentionally committed so the app runs without Node.js.
+# Uncomment to ignore it if you'd rather build it yourself:
+# frontend/dist/
+
+# Tools and OS files
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
